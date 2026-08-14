@@ -128,3 +128,10 @@
 1. Установите зависимости:
    ```bash
    pip install -r requirements.txt
+2. Сгенерируйте данные:
+   ```bash
+   python data/generate_logs.py
+
+3. Откройте и выполните все ячейки в ноутбуке:
+   ```bash      
+   jupyter notebook notebooks/analysis.ipynb
